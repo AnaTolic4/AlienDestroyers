@@ -6,20 +6,19 @@ using UnityEngine;
 public class Building : MonoBehaviour
 {
     [SerializeField] private float _destructionEnergyThreshold;
-
-    private Part[] _parts;
+    
+    private BuildingPart[] _parts;
 
     private void Awake()
     {
-        _parts = GetComponentsInChildren<Part>();
+        _parts = GetComponentsInChildren<BuildingPart>();
         SetPartId();
     }
 
-    private void RemovePart(Part part)
+    public void DetouchPart(BuildingPart part)
     {
-        _parts[part.Id - 1] = null;
-        part.transform.parent = null;
-        part.gameObject.AddComponent<Rigidbody>();
+        //_parts[part.Id - 1] = null;
+        //part.transform.parent = null;
     }
 
     private void SetPartId()
