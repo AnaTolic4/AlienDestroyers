@@ -33,6 +33,14 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""NewResolution"",
+                    ""type"": ""Button"",
+                    ""id"": ""f60bf925-0fdd-4e22-ac8d-033e071b1502"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -57,6 +65,17 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""action"": ""Touch"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""27e31a02-84e8-41bd-9480-a5efb8a370f7"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NewResolution"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -67,6 +86,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Position = m_Player.FindAction("Position", throwIfNotFound: true);
         m_Player_Touch = m_Player.FindAction("Touch", throwIfNotFound: true);
+        m_Player_NewResolution = m_Player.FindAction("NewResolution", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -118,12 +138,14 @@ public class @PlayerInput : IInputActionCollection, IDisposable
     private IPlayerActions m_PlayerActionsCallbackInterface;
     private readonly InputAction m_Player_Position;
     private readonly InputAction m_Player_Touch;
+    private readonly InputAction m_Player_NewResolution;
     public struct PlayerActions
     {
         private @PlayerInput m_Wrapper;
         public PlayerActions(@PlayerInput wrapper) { m_Wrapper = wrapper; }
         public InputAction @Position => m_Wrapper.m_Player_Position;
         public InputAction @Touch => m_Wrapper.m_Player_Touch;
+        public InputAction @NewResolution => m_Wrapper.m_Player_NewResolution;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -139,6 +161,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @Touch.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTouch;
                 @Touch.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTouch;
                 @Touch.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTouch;
+                @NewResolution.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnNewResolution;
+                @NewResolution.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnNewResolution;
+                @NewResolution.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnNewResolution;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -149,6 +174,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @Touch.started += instance.OnTouch;
                 @Touch.performed += instance.OnTouch;
                 @Touch.canceled += instance.OnTouch;
+                @NewResolution.started += instance.OnNewResolution;
+                @NewResolution.performed += instance.OnNewResolution;
+                @NewResolution.canceled += instance.OnNewResolution;
             }
         }
     }
@@ -157,5 +185,6 @@ public class @PlayerInput : IInputActionCollection, IDisposable
     {
         void OnPosition(InputAction.CallbackContext context);
         void OnTouch(InputAction.CallbackContext context);
+        void OnNewResolution(InputAction.CallbackContext context);
     }
 }

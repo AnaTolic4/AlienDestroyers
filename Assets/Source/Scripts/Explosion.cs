@@ -1,6 +1,4 @@
-using JetBrains.Rider.Unity.Editor;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Explosion : MonoBehaviour
 {

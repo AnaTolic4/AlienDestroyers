@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BuildingPart : MonoBehaviour, IDestroyable
 {
-    private Rigidbody _rb;
+    private Rigidbody _rigidbody;
     private bool _isImpacted;
 
     public int Id { get; set; }
@@ -15,7 +15,7 @@ public class BuildingPart : MonoBehaviour, IDestroyable
     public void ExplosionImpact(float exlosionForce, Vector3 explosionPosition, float radius)
     {
         if(enabled)
-            _rb.AddExplosionForce(exlosionForce,explosionPosition, radius,0,ForceMode.Impulse);
+            _rigidbody.AddExplosionForce(exlosionForce,explosionPosition, radius,1f,ForceMode.Impulse);
     }
 
     public void WakeUp()
@@ -24,13 +24,14 @@ public class BuildingPart : MonoBehaviour, IDestroyable
             return;
 
         _isImpacted = true;
-        _rb = gameObject.AddComponent<Rigidbody>();
-        _rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
+        _rigidbody = gameObject.AddComponent<Rigidbody>();
+        _rigidbody.interpolation = RigidbodyInterpolation.Interpolate;
+        _rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
         GetComponentInParent<Building>().DetouchPart(this);
     }
 
     public void CollisionImpact(Vector3 forceDirection)
     {
-        _rb.AddForce(forceDirection, ForceMode.Force);
+        _rigidbody.AddForce(forceDirection, ForceMode.Force);
     }
 }

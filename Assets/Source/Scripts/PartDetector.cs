@@ -2,16 +2,16 @@ using UnityEngine;
 
 public class PartDetector : MonoBehaviour
 {
-    private Collider _selfCollider;
     private Car _car;
     private Rigidbody _rb;
     private RaycastHit _hit;
     private float _detectionDistance;
+    private float _colliderExtents;
 
     private void Awake()
     {
         _car = GetComponentInParent<Car>();
-        _selfCollider = GetComponent<Collider>();
+        _colliderExtents = _car.GetComponent<Collider>().bounds.extents.magnitude;
     }
 
     private void OnEnable()
@@ -26,27 +26,26 @@ public class PartDetector : MonoBehaviour
 
     private void Update()
     {
-        Physics.Raycast(_selfCollider.bounds.center, _rb.velocity.normalized, out _hit, _detectionDistance);
-        Debug.DrawRay(_selfCollider.bounds.center, _rb.velocity.normalized * _detectionDistance, Color.red);
+        Physics.Raycast(transform.position, _rb.velocity.normalized, out _hit, _detectionDistance);
+        Debug.DrawRay(transform.position, _rb.velocity.normalized * _detectionDistance, Color.red);
 
-        AwakenParts(_hit.point, _selfCollider.bounds.extents.magnitude);
+        UnfreezParts(_hit.point, _colliderExtents);
     }
 
-    private void AwakenParts(Vector3 center, float radius)
+    private void UnfreezParts(Vector3 center, float radius)
     {
         foreach (Collider collider in Physics.OverlapSphere(center, radius))
         {
             if (collider.TryGetComponent(out IDestroyable destroyableObject))
             {
                 destroyableObject.WakeUp();
-                destroyableObject.CollisionImpact(_rb.velocity);
             }
         }
     }
 
-    private void SetParameters(Rigidbody rigidbody,float detectionDistance)
+    private void SetParameters(Rigidbody rigidbody, float detectionDistance)
     {
-        _detectionDistance = _selfCollider.bounds.extents.magnitude + detectionDistance;
+        _detectionDistance = detectionDistance;
         _rb = rigidbody;
     }
 }
