@@ -9,7 +9,7 @@ public class CameraFov : MonoBehaviour
 
     [SerializeField] private Vector2 _refResolution;
     [SerializeField] private float _refHorizonralFov = 60f;
-    [SerializeField] private float _cameraZoom;
+    [SerializeField] private float _cameraZoom = 1f;
 
     [SerializeField]
     [Range(0f, 1f)] private float _matchWidthOrHeight;

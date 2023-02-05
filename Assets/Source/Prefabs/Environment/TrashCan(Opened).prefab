@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 6315259557332739755}
   - component: {fileID: 6920788593568540942}
   - component: {fileID: 5183471403536129476}
+  - component: {fileID: 2217077923427712211}
+  - component: {fileID: 7536647569442486202}
   m_Layer: 0
   m_Name: TrashCan(Opened)
   m_TagString: Untagged
@@ -81,3 +83,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2217077923427712211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6696746779410775057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
+  _ramData: {fileID: 0}
+  _demolisher: 0
+--- !u!65 &7536647569442486202
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6696746779410775057}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01102123, y: 0.0214112, z: 0.010429993}
+  m_Center: {x: -0.0007957949, y: 0.0107056, z: -0.15816298}

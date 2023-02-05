@@ -1,31 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class Building : MonoBehaviour
 {
-    [SerializeField] private float _destructionEnergyThreshold;
-    
-    private BuildingPart[] _parts;
+    [SerializeField] private TargetData _targetData;
 
-    private void Awake()
+    private void Start()
     {
-        _parts = GetComponentsInChildren<BuildingPart>();
-        SetPartId();
-    }
-
-    public void DetouchPart(BuildingPart part)
-    {
-        //_parts[part.Id - 1] = null;
-        //part.transform.parent = null;
-    }
-
-    private void SetPartId()
-    {
-        for (int i = 0; i < _parts.Length; i++)
+        foreach(Target fragment in GetComponentsInChildren<Target>())
         {
-            _parts[i].Id = i + 1;
-        }  
+            fragment.SetData(_targetData);
+        }
     }
 }
