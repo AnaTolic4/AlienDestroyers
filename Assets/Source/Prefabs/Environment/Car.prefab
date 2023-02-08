@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3691983530756467867}
   - component: {fileID: 329700521283412798}
   - component: {fileID: 2555691261936474100}
-  - component: {fileID: 6046221807279671156}
-  - component: {fileID: 820152567225703599}
   - component: {fileID: 6242239444398849452}
+  - component: {fileID: 8047150700721552509}
+  - component: {fileID: 173355727844678688}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -91,33 +91,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6046221807279671156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4068826175204800033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dfdbd6aa66738d448bbc2ee1032b577, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &820152567225703599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4068826175204800033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: 3e4583b4a6a5b9943939da790363b5f0, type: 2}
-  _ramData: {fileID: 11400000, guid: 42bc32775358e184cb29b3ca4fb8103c, type: 2}
-  _demolisher: 1
 --- !u!65 &6242239444398849452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -131,3 +104,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.040749997, y: 0.01595, z: 0.01958}
   m_Center: {x: -0.00012499932, y: 0.004475, z: -0.0012100004}
+--- !u!114 &8047150700721552509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4068826175204800033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfdbd6aa66738d448bbc2ee1032b577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _demolisher: {fileID: 11400000, guid: 96f9a864b0d104d46ae8165d79737c20, type: 2}
+--- !u!114 &173355727844678688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4068826175204800033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e3d01f6ecdd204cb76e4262ba514a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pickup: {fileID: 11400000, guid: 087a49376da97f74ca0c00e45a0094c5, type: 2}

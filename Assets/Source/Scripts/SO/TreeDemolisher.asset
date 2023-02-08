@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee3287faded104a4c837489ab154f0e3, type: 3}
-  m_Name: TargetCar
+  m_Script: {fileID: 11500000, guid: 2aa1b04e6b082d94d8e8450290466ca0, type: 3}
+  m_Name: TreeDemolisher
   m_EditorClassIdentifier: 
-  _reward: 10
-  _mass: 2
+  _force: 3
+  _radius: 2

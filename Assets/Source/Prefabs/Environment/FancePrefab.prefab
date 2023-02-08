@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 685893440701413783}
   - component: {fileID: 4479696132926617138}
   - component: {fileID: 1859956615337788152}
-  - component: {fileID: 558617929360108191}
   - component: {fileID: 9097196890392786934}
+  - component: {fileID: 222517160437893941}
   m_Layer: 0
   m_Name: Fence (4)
   m_TagString: Untagged
@@ -84,21 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &558617929360108191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 202407858010546989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &9097196890392786934
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -112,6 +97,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0020000006, y: 0.011499999, z: 0.049218405}
   m_Center: {x: 0, y: 0.0057499995, z: 0.11689983}
+--- !u!114 &222517160437893941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202407858010546989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}
 --- !u!1 &1316616997853044411
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,8 +121,8 @@ GameObject:
   - component: {fileID: 1805451434506175489}
   - component: {fileID: 3360137319326337956}
   - component: {fileID: 668059275966955374}
-  - component: {fileID: 8784581764613807698}
   - component: {fileID: 6632691555494664049}
+  - component: {fileID: 7956877087206066182}
   m_Layer: 0
   m_Name: Fence (10)
   m_TagString: Untagged
@@ -196,21 +194,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8784581764613807698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1316616997853044411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &6632691555494664049
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -224,6 +207,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.011499999, z: 0.049218394}
   m_Center: {x: 0, y: 0.0057499995, z: 0.11689982}
+--- !u!114 &7956877087206066182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316616997853044411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}
 --- !u!1 &1319560601737782774
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,8 +231,8 @@ GameObject:
   - component: {fileID: 1809274750231265100}
   - component: {fileID: 3365330600768647401}
   - component: {fileID: 671310191735718947}
-  - component: {fileID: 5198617100653052348}
   - component: {fileID: 2204330013037336468}
+  - component: {fileID: 8719670218481048619}
   m_Layer: 0
   m_Name: Fence (6)
   m_TagString: Untagged
@@ -308,21 +304,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5198617100653052348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1319560601737782774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &2204330013037336468
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -336,6 +317,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0020000006, y: 0.011499999, z: 0.049218405}
   m_Center: {x: -0.000000014901161, y: 0.0057499995, z: 0.11689983}
+--- !u!114 &8719670218481048619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319560601737782774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}
 --- !u!1 &1648561088290879099
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,8 +341,8 @@ GameObject:
   - component: {fileID: 2137817015852444865}
   - component: {fileID: 3027780877659972452}
   - component: {fileID: 999836378209736622}
-  - component: {fileID: 4567594923331181291}
   - component: {fileID: 2725314942905831384}
+  - component: {fileID: 6804219353028689400}
   m_Layer: 0
   m_Name: Fence (1)
   m_TagString: Untagged
@@ -420,21 +414,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4567594923331181291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1648561088290879099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &2725314942905831384
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -448,6 +427,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.011499999, z: 0.049218394}
   m_Center: {x: 0, y: 0.0057499995, z: 0.11689982}
+--- !u!114 &6804219353028689400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648561088290879099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}
 --- !u!1 &2313079834127854026
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,8 +451,8 @@ GameObject:
   - component: {fileID: 3121669049218446192}
   - component: {fileID: 2089035685526781141}
   - component: {fileID: 4258515920049195039}
-  - component: {fileID: 1273154175281814722}
   - component: {fileID: 9054523719403868505}
+  - component: {fileID: 4000407301690843531}
   m_Layer: 0
   m_Name: Fence (9)
   m_TagString: Untagged
@@ -532,21 +524,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1273154175281814722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2313079834127854026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &9054523719403868505
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -560,6 +537,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.011499999, z: 0.049218394}
   m_Center: {x: 0, y: 0.0057499995, z: 0.1168998}
+--- !u!114 &4000407301690843531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313079834127854026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}
 --- !u!1 &3077777056572283215
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,8 +561,8 @@ GameObject:
   - component: {fileID: 2449295473105093621}
   - component: {fileID: 1608487469251677264}
   - component: {fileID: 3582201861768820890}
-  - component: {fileID: 7815332933876278146}
   - component: {fileID: 5482250861050057161}
+  - component: {fileID: 4441796484064061231}
   m_Layer: 0
   m_Name: Fence (3)
   m_TagString: Untagged
@@ -644,21 +634,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7815332933876278146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3077777056572283215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &5482250861050057161
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -672,6 +647,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.011499999, z: 0.049218394}
   m_Center: {x: 0, y: 0.0057499995, z: 0.11689981}
+--- !u!114 &4441796484064061231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3077777056572283215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}
 --- !u!1 &4088779960525504150
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,8 +671,8 @@ GameObject:
   - component: {fileID: 3744060402647688236}
   - component: {fileID: 313642890916326281}
   - component: {fileID: 2575706892977577795}
-  - component: {fileID: 5405866402471967140}
   - component: {fileID: 8486766890436217502}
+  - component: {fileID: 1712178177276234476}
   m_Layer: 0
   m_Name: Fence (8)
   m_TagString: Untagged
@@ -756,21 +744,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5405866402471967140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4088779960525504150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &8486766890436217502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -784,6 +757,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0020000006, y: 0.011499999, z: 0.049218405}
   m_Center: {x: 0, y: 0.0057499995, z: 0.11689983}
+--- !u!114 &1712178177276234476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4088779960525504150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}
 --- !u!1 &4088878912197533518
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,8 +824,8 @@ GameObject:
   - component: {fileID: 3666671622170834088}
   - component: {fileID: 382095669276474125}
   - component: {fileID: 2497684378396692423}
-  - component: {fileID: 8133649310874077630}
   - component: {fileID: 6179604418764644295}
+  - component: {fileID: 8102288174726226547}
   m_Layer: 0
   m_Name: Fence
   m_TagString: Untagged
@@ -911,21 +897,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8133649310874077630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4154978322764213778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &6179604418764644295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -939,6 +910,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.011499999, z: 0.049218394}
   m_Center: {x: 0, y: 0.0057499995, z: 0.11689982}
+--- !u!114 &8102288174726226547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4154978322764213778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}
 --- !u!1 &4684390151596931764
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,8 +934,8 @@ GameObject:
   - component: {fileID: 5352981888312385550}
   - component: {fileID: 9072016838580940715}
   - component: {fileID: 6485940434922789729}
-  - component: {fileID: 6203474858371994044}
   - component: {fileID: 196898681803747620}
+  - component: {fileID: 2693239829382333979}
   m_Layer: 0
   m_Name: Fence (7)
   m_TagString: Untagged
@@ -1023,21 +1007,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6203474858371994044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4684390151596931764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &196898681803747620
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1051,6 +1020,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0020000006, y: 0.011499999, z: 0.049218405}
   m_Center: {x: 0, y: 0.0057499995, z: 0.11689983}
+--- !u!114 &2693239829382333979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4684390151596931764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}
 --- !u!1 &4699657357475269574
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,8 +1044,8 @@ GameObject:
   - component: {fileID: 5364730382101844348}
   - component: {fileID: 9069267023869124313}
   - component: {fileID: 6501074736258411027}
-  - component: {fileID: 5586586028283983653}
   - component: {fileID: 407751828215288005}
+  - component: {fileID: 3358583608388538844}
   m_Layer: 0
   m_Name: Fence (5)
   m_TagString: Untagged
@@ -1135,21 +1117,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5586586028283983653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4699657357475269574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &407751828215288005
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1163,6 +1130,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0020000006, y: 0.011499999, z: 0.049218405}
   m_Center: {x: 0, y: 0.0057499995, z: 0.11689983}
+--- !u!114 &3358583608388538844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4699657357475269574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}
 --- !u!1 &5214747954930029114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,8 +1154,8 @@ GameObject:
   - component: {fileID: 4833858896906733696}
   - component: {fileID: 8411187652567746341}
   - component: {fileID: 6007377297620022255}
-  - component: {fileID: 516705973057372666}
   - component: {fileID: 1664609142078000306}
+  - component: {fileID: 9184019955353874650}
   m_Layer: 0
   m_Name: Fence (2)
   m_TagString: Untagged
@@ -1247,21 +1227,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &516705973057372666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5214747954930029114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &1664609142078000306
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1275,6 +1240,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.011499999, z: 0.049218394}
   m_Center: {x: 0, y: 0.0057499995, z: 0.1168998}
+--- !u!114 &9184019955353874650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5214747954930029114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}
 --- !u!1 &5283650633408041867
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,8 +1264,8 @@ GameObject:
   - component: {fileID: 4762729148927805745}
   - component: {fileID: 8482327004118681236}
   - component: {fileID: 5932278862554755678}
-  - component: {fileID: 3781471019801066970}
   - component: {fileID: 4134406158394188370}
+  - component: {fileID: 2712449616122775176}
   m_Layer: 0
   m_Name: Fence (11)
   m_TagString: Untagged
@@ -1359,21 +1337,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3781471019801066970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5283650633408041867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &4134406158394188370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1387,6 +1350,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.011499999, z: 0.049218394}
   m_Center: {x: 0, y: 0.0057499995, z: 0.1168998}
+--- !u!114 &2712449616122775176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5283650633408041867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}
 --- !u!1 &5400157424063705176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,8 +1374,8 @@ GameObject:
   - component: {fileID: 4736351105555966690}
   - component: {fileID: 8508774868055893319}
   - component: {fileID: 5904723653474308493}
-  - component: {fileID: 5629927483730153007}
   - component: {fileID: 4619341519360094286}
+  - component: {fileID: 742548479213365855}
   m_Layer: 0
   m_Name: Fence (12)
   m_TagString: Untagged
@@ -1471,21 +1447,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5629927483730153007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5400157424063705176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &4619341519360094286
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1499,3 +1460,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.002, y: 0.011499999, z: 0.049218394}
   m_Center: {x: 0, y: 0.0057499995, z: 0.1168998}
+--- !u!114 &742548479213365855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400157424063705176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: c8fd731e123eb604abf7fa069999b745, type: 2}

@@ -38,15 +38,11 @@ public class Test : MonoBehaviour
     {
         foreach (Collider collider in Physics.OverlapSphere(_hit.point, _radius))
         {
-            if (collider.TryGetComponent(out Target target))
+            if (collider.TryGetComponent(out Target target) && !target.IsTargetHit)
             {
-                if (!target.IsTargetHit)
-                {
-                    target.Hit();
-                }
-
-                collider.attachedRigidbody.AddExplosionForce(_explosionForce, _hit.point, _radius, 0f, ForceMode.Impulse);
+                target.Hit();
             }
+                collider.attachedRigidbody.AddExplosionForce(_explosionForce, _hit.point, _radius, 0f, ForceMode.Impulse);
         }
     }
 

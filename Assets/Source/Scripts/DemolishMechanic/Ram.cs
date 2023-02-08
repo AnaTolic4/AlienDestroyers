@@ -1,17 +1,12 @@
 using UnityEngine;
 
-public sealed class Ram : Demolisher
+public sealed class Ram : Destruction
 {
+    [SerializeField] private Demolisher _demolisher;
+
     private float _pushForce;
     private float _radius;
     private Rigidbody _rigidbody;
-
-    private void Start()
-    {
-        _pushForce = RamData.Instance.PushForce;
-        _radius = RamData.Instance.Radius;
-        _rigidbody = GetComponent<Rigidbody>();
-    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -19,12 +14,12 @@ public sealed class Ram : Demolisher
             return;
 
         Vector3 point = collision.GetContact(0).point;
-        Demolish(point);
+        Destruct(point);
 
         Debug.Log("Active");
     }
 
-    protected override void Demolish(Vector3 sourcePoint)
+    protected override void Destruct(Vector3 sourcePoint)
     {
         foreach (Collider collider in Physics.OverlapSphere(sourcePoint, _radius))
         {
@@ -36,5 +31,12 @@ public sealed class Ram : Demolisher
                 collider.attachedRigidbody.AddForceAtPosition(pushDirection, sourcePoint, ForceMode.Impulse);
             }
         }
+    }
+
+    public void Activate()
+    {
+        _rigidbody = GetComponent<Rigidbody>();
+        _pushForce = _demolisher.Force;
+        _radius = _demolisher.Radius;
     }
 }

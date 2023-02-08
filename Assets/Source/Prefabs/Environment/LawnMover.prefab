@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2369287550650985830}
   - component: {fileID: 1679488533124981443}
   - component: {fileID: 3506697335735408137}
-  - component: {fileID: 2931441033097860030}
   - component: {fileID: 5985376403913256824}
+  - component: {fileID: 1444458757116373287}
   m_Layer: 0
   m_Name: LawnMover
   m_TagString: Untagged
@@ -87,21 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2931441033097860030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3146528319676020700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0f427d44b4f224487adb72505ab639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _targetData: {fileID: 11400000, guid: b744ff6cde0842c4f94b6366c52cdac4, type: 2}
-  _ramData: {fileID: 0}
-  _demolisher: 0
 --- !u!65 &5985376403913256824
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115,3 +100,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0152812, y: 0.009561709, z: 0.008999996}
   m_Center: {x: 0.0177797, y: 0.0047808546, z: 0.0846453}
+--- !u!114 &1444458757116373287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146528319676020700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef277b6bd802df4499b6d41494a8a7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _environmentObject: {fileID: 11400000, guid: a53215d354400e74794323e8694d4b28, type: 2}

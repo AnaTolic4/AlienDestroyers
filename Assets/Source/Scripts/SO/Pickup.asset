@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee3287faded104a4c837489ab154f0e3, type: 3}
-  m_Name: TargetBuildingFragment
+  m_Script: {fileID: 11500000, guid: bdb72147204803e459714c0e2747a1fd, type: 3}
+  m_Name: Pickup
   m_EditorClassIdentifier: 
   _reward: 5
   _mass: 3
+  _hasRaming: 1

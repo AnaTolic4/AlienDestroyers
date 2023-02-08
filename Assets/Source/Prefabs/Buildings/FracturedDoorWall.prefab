@@ -299,7 +299,6 @@ GameObject:
   - component: {fileID: 2438637405850278138}
   - component: {fileID: 1866136959549132884}
   - component: {fileID: 8021210258063109475}
-  - component: {fileID: 3782476568121370097}
   - component: {fileID: 6806361739087365171}
   m_Layer: 0
   m_Name: Window (5)
@@ -372,18 +371,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3782476568121370097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1421932408539713908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95481756979ad784faa45abe166a07d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &6806361739087365171
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -409,8 +396,7 @@ GameObject:
   - component: {fileID: 3312282744515069494}
   - component: {fileID: 7939528687493739749}
   - component: {fileID: 1102365904152924058}
-  - component: {fileID: 3060786995492288074}
-  - component: {fileID: 3391910053739248990}
+  - component: {fileID: 4429155171677973934}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -482,20 +468,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3060786995492288074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699262274867834376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95481756979ad784faa45abe166a07d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!64 &3391910053739248990
-MeshCollider:
+--- !u!65 &4429155171677973934
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -504,10 +478,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1810874020653062278, guid: c462178f7faf87744b6d1f31fa73781a, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.0018000012, y: 0.016, z: 0.010000005}
+  m_Center: {x: -0.00040005983, y: 0.008, z: -0.04409955}
 --- !u!1 &1921416912556860097
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,7 +780,6 @@ GameObject:
   - component: {fileID: 8326573940777857058}
   - component: {fileID: 1040906860911606109}
   - component: {fileID: 8395044357756098895}
-  - component: {fileID: 4266790890871551303}
   - component: {fileID: 6053546279447704499}
   m_Layer: 0
   m_Name: Window (3)
@@ -880,18 +852,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4266790890871551303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2389137225501861909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95481756979ad784faa45abe166a07d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &6053546279447704499
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1685,7 +1645,6 @@ GameObject:
   - component: {fileID: 3970202453246789743}
   - component: {fileID: 63013373641078218}
   - component: {fileID: 2837664773798934048}
-  - component: {fileID: 7870760415210734248}
   - component: {fileID: 6404783142552222454}
   m_Layer: 0
   m_Name: Window (4)
@@ -1758,18 +1717,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7870760415210734248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4628589272262632095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95481756979ad784faa45abe166a07d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &6404783142552222454
 MeshCollider:
   m_ObjectHideFlags: 0

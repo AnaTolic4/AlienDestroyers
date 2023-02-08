@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee3287faded104a4c837489ab154f0e3, type: 3}
-  m_Name: TargetDecor
+  m_Script: {fileID: 11500000, guid: 64e6c761d28d58d4cbd46f64fc73d758, type: 3}
+  m_Name: LawnMover
   m_EditorClassIdentifier: 
-  _reward: 3
-  _mass: 2
+  _reward: 2
+  _mass: 1

@@ -1,40 +1,19 @@
 using UnityEngine;
 
-public sealed class Target : MonoBehaviour
+public abstract class Target : MonoBehaviour
 {
-    [SerializeField] private bool _demolisher;
+    public abstract int Reward { get; }
+    public abstract bool IsTargetHit { get; protected set; }
 
-    private int _reward;
-    private float _mass;
-    private Rigidbody _rigidbody;
+    public abstract void Hit();
 
-    public bool IsTargetHit { get; private set; }
-
-    public int Reward => _reward;
-
-    private void Start()
+    protected Rigidbody InitRigidbody(GameObject gameObject, float mass = 1f)
     {
-        _reward = TargetData.Instance.Reward;
-        _mass = TargetData.Instance.Mass;
-    }
+        var rigidbody = gameObject.AddComponent<Rigidbody>();
+        rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
+        rigidbody.interpolation = RigidbodyInterpolation.Interpolate;
+        rigidbody.mass = mass;
 
-    public void Hit()
-    {
-        InitRigidbody();
-        IsTargetHit = true;
-
-        if (_demolisher)
-            gameObject.AddComponent<Ram>();
-    }
-
-    private void InitRigidbody()
-    {
-        if (_rigidbody != null)
-            return;
-
-        _rigidbody = gameObject.AddComponent<Rigidbody>();
-        _rigidbody.interpolation = RigidbodyInterpolation.Interpolate;
-        _rigidbody.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
-        _rigidbody.mass = _mass;
+        return rigidbody;
     }
 }

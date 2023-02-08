@@ -2,13 +2,14 @@ using UnityEngine;
 
 public class Building : MonoBehaviour
 {
-    [SerializeField] private TargetData _targetData;
+    [SerializeField] private Fragment _fragment;
 
-    private void Start()
+    private void Awake()
     {
-        foreach(Target fragment in GetComponentsInChildren<Target>())
+        foreach (Collider collider in GetComponentsInChildren<Collider>())
         {
-            fragment.SetData(_targetData);
+            BuildingFragment fragment = collider.gameObject.AddComponent<BuildingFragment>();
+            fragment.SetData(_fragment.Reward, _fragment.HasMassBySize, _fragment.MinimumMass);
         }
     }
 }

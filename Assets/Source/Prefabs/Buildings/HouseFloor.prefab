@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 212273600518570179}
   - component: {fileID: 4997345389378918213}
   - component: {fileID: 7782001108338722396}
+  - component: {fileID: 3318896348710209516}
   m_Layer: 0
   m_Name: house.001_cell.020
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3318896348710209516
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378750808689527647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -922183937522888261, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &702846715893316156
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +107,7 @@ GameObject:
   - component: {fileID: 3303104950213200630}
   - component: {fileID: 5099568857548914378}
   - component: {fileID: 8746355824718802456}
+  - component: {fileID: 7781728314683444891}
   m_Layer: 0
   m_Name: house.001_cell.024
   m_TagString: Untagged
@@ -162,6 +178,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7781728314683444891
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702846715893316156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8212464112625294167, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &1234149394419045366
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +203,7 @@ GameObject:
   - component: {fileID: 3883312846707008970}
   - component: {fileID: 1749694911129919528}
   - component: {fileID: 3859518476648614941}
+  - component: {fileID: 8060529246055248471}
   m_Layer: 0
   m_Name: house.001_cell.011
   m_TagString: Untagged
@@ -243,6 +274,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8060529246055248471
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234149394419045366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4285401276013193445, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &1245937031490184202
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +299,7 @@ GameObject:
   - component: {fileID: 7028425777072571634}
   - component: {fileID: 368002228393412182}
   - component: {fileID: 2929733167948510190}
+  - component: {fileID: 2756035081331597191}
   m_Layer: 0
   m_Name: house.001_cell.026
   m_TagString: Untagged
@@ -324,6 +370,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2756035081331597191
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245937031490184202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8987594673494599505, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &1370666358864216197
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,6 +395,7 @@ GameObject:
   - component: {fileID: 6390123690153200482}
   - component: {fileID: 6521455932726204349}
   - component: {fileID: 8237043523897095444}
+  - component: {fileID: 5201975983486796119}
   m_Layer: 0
   m_Name: house.001_cell.017
   m_TagString: Untagged
@@ -405,6 +466,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5201975983486796119
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370666358864216197}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3849148429375515194, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &1683742175658765642
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +491,7 @@ GameObject:
   - component: {fileID: 5508293146609635178}
   - component: {fileID: 5324632207246584463}
   - component: {fileID: 4134136834391383617}
+  - component: {fileID: 6346812047198132560}
   m_Layer: 0
   m_Name: house.001_cell.015
   m_TagString: Untagged
@@ -486,6 +562,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6346812047198132560
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683742175658765642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4672709758592054972, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &1917207182488986514
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +587,7 @@ GameObject:
   - component: {fileID: 3751182412925512211}
   - component: {fileID: 1033085820669510917}
   - component: {fileID: 3484453309565408969}
+  - component: {fileID: 6422086807336684975}
   m_Layer: 0
   m_Name: house.001_cell.028
   m_TagString: Untagged
@@ -567,6 +658,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6422086807336684975
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917207182488986514}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5385445266245771447, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &2559585475230053251
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,6 +683,7 @@ GameObject:
   - component: {fileID: 7386342804968469865}
   - component: {fileID: 4439920326126595216}
   - component: {fileID: 886181458725514717}
+  - component: {fileID: 6237813915834113830}
   m_Layer: 0
   m_Name: house.001_cell.027
   m_TagString: Untagged
@@ -648,6 +754,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6237813915834113830
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2559585475230053251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 484379227274378808, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &2826850184804875459
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +779,7 @@ GameObject:
   - component: {fileID: 5259318628331126160}
   - component: {fileID: 5190187388574945325}
   - component: {fileID: 3375484938274760215}
+  - component: {fileID: 8925201187508046756}
   m_Layer: 0
   m_Name: house.001_cell.019
   m_TagString: Untagged
@@ -729,6 +850,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8925201187508046756
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2826850184804875459}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5966648436238710634, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &3373829991929552005
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +875,7 @@ GameObject:
   - component: {fileID: 3319297874442030948}
   - component: {fileID: 7830424405422477214}
   - component: {fileID: 8960556424782989118}
+  - component: {fileID: 4941619109775855834}
   m_Layer: 0
   m_Name: house.001_cell.010
   m_TagString: Untagged
@@ -810,6 +946,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4941619109775855834
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3373829991929552005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1248747538897837082, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &3614341326342032917
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +971,7 @@ GameObject:
   - component: {fileID: 8729492922059386943}
   - component: {fileID: 2516092949697682465}
   - component: {fileID: 5463408909372165843}
+  - component: {fileID: 5813176242297803145}
   m_Layer: 0
   m_Name: house.001_cell.014
   m_TagString: Untagged
@@ -891,6 +1042,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5813176242297803145
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3614341326342032917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2208528312382247026, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &3731330631103635970
 GameObject:
   m_ObjectHideFlags: 0
@@ -902,6 +1067,7 @@ GameObject:
   - component: {fileID: 34199891530209186}
   - component: {fileID: 2219111433066235226}
   - component: {fileID: 6103354901834071980}
+  - component: {fileID: 3225198384392284986}
   m_Layer: 0
   m_Name: house.001_cell.025
   m_TagString: Untagged
@@ -972,6 +1138,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3225198384392284986
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3731330631103635970}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -252680736711619899, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &4009376270497581720
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,6 +1163,7 @@ GameObject:
   - component: {fileID: 5808858084247676110}
   - component: {fileID: 4045664562573372698}
   - component: {fileID: 6333623627559112852}
+  - component: {fileID: 2305462644503637261}
   m_Layer: 0
   m_Name: house.001_cell.008
   m_TagString: Untagged
@@ -1053,6 +1234,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2305462644503637261
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009376270497581720}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -939635729507757776, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &4408737890674453862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1064,6 +1259,7 @@ GameObject:
   - component: {fileID: 8572625100993944987}
   - component: {fileID: 7996525747766710287}
   - component: {fileID: 6005303367123608718}
+  - component: {fileID: 4863598979373520355}
   m_Layer: 0
   m_Name: house.001_cell.007
   m_TagString: Untagged
@@ -1134,6 +1330,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4863598979373520355
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4408737890674453862}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4799521564484129349, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &4678748812570294314
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,6 +1355,7 @@ GameObject:
   - component: {fileID: 3211478133819104765}
   - component: {fileID: 5172634978860435870}
   - component: {fileID: 8153210180766127547}
+  - component: {fileID: 1997190588496973631}
   m_Layer: 0
   m_Name: house.001_cell.022
   m_TagString: Untagged
@@ -1215,6 +1426,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1997190588496973631
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678748812570294314}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6079006730681017274, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &4888287675880060282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1502,7 @@ GameObject:
   - component: {fileID: 295228727068874688}
   - component: {fileID: 2695848808504453063}
   - component: {fileID: 1043394438383265492}
+  - component: {fileID: 6469802153861652211}
   m_Layer: 0
   m_Name: house.001_cell.023
   m_TagString: Untagged
@@ -1347,6 +1573,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6469802153861652211
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4916591039514697904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4356095462841284033, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &5092645969583195985
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1598,7 @@ GameObject:
   - component: {fileID: 4348602850790256464}
   - component: {fileID: 3313358293705826437}
   - component: {fileID: 289978226560170767}
+  - component: {fileID: 2529390525168548598}
   m_Layer: 0
   m_Name: house.001_cell.013
   m_TagString: Untagged
@@ -1428,6 +1669,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2529390525168548598
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5092645969583195985}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7388404526416343070, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &6752572621821668196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,6 +1694,7 @@ GameObject:
   - component: {fileID: 1554340280314569692}
   - component: {fileID: 2767158225950683517}
   - component: {fileID: 7610962075472066455}
+  - component: {fileID: 117866298861450268}
   m_Layer: 0
   m_Name: house.001_cell.018
   m_TagString: Untagged
@@ -1509,6 +1765,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &117866298861450268
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6752572621821668196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8433784240813923820, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &6805308167018913721
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,6 +1790,7 @@ GameObject:
   - component: {fileID: 8806304610764108684}
   - component: {fileID: 9007027334016773084}
   - component: {fileID: 6268998800898885791}
+  - component: {fileID: 7599803141873864517}
   m_Layer: 0
   m_Name: house.001_cell.012
   m_TagString: Untagged
@@ -1590,6 +1861,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7599803141873864517
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805308167018913721}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1452179814085651685, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &7489332014720764409
 GameObject:
   m_ObjectHideFlags: 0
@@ -1601,6 +1886,7 @@ GameObject:
   - component: {fileID: 7547232767921693646}
   - component: {fileID: 6572435113599366785}
   - component: {fileID: 686899685915398375}
+  - component: {fileID: 652185341324423026}
   m_Layer: 0
   m_Name: house.001_cell.021
   m_TagString: Untagged
@@ -1671,6 +1957,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &652185341324423026
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489332014720764409}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7682831333757835553, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
 --- !u!1 &8236998470960780453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1682,6 +1982,7 @@ GameObject:
   - component: {fileID: 5726849067181242520}
   - component: {fileID: 6690345649482963153}
   - component: {fileID: 7685044850703460398}
+  - component: {fileID: 3284722814835301149}
   m_Layer: 0
   m_Name: house.001_cell.016
   m_TagString: Untagged
@@ -1752,3 +2053,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3284722814835301149
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8236998470960780453}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1702733283495227977, guid: bff4fc5a08af36446a556833c8584de9, type: 3}
