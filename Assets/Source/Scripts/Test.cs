@@ -41,8 +41,8 @@ public class Test : MonoBehaviour
             if (collider.TryGetComponent(out Target target) && !target.IsTargetHit)
             {
                 target.Hit();
-            }
                 collider.attachedRigidbody.AddExplosionForce(_explosionForce, _hit.point, _radius, 0f, ForceMode.Impulse);
+            }
         }
     }
 
